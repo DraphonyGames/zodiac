@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: GraphBuilderPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astarData:
+    hasBeenReverted: 0
+    data: 504b0304140000080800cd9833438aada032d40100008a0300000b0024006772617068302e6a736f6e0a0020000000000001001800cd44fe935ab5ce01cd44fe935ab5ce01cd44fe935ab5ce0175525d6f9b4010fc2bd53d3b9621803fde52bb712ba54d14a7eaf3028b39f9b843f7d1d88efcdfbb7760625b2a0f279899db9d9de5836d1d2fd9e283fd05e1902d583a8faa2a8ae7799a149895d95d594c932c8e4a8069924fab8c9d460c4c8b857d05cb155b4423a695f5efd217dab3c564c40ee13cd249f202a545dd9377513cbbe0a3719ccce999cd48e86421a069b1dcf023f6fa38cd823c8ac72949a42ab16327e3944a2b21b8e95bdb43eb4758426b9c403662258706436b325923dfd6960a5edc7aae2a833678d17058714d638562ecabb2355568c0ec2ee2b98fa79937dad5fa794d46d9fd2c21b2d2aaf9de378b2654dad6bcd8bdc2a100435005c2e035b8baf4e9daffc57876bdacb1a0c6563b3c5bb9829c7c07b1835ce09f1ae52fb5d6cac9b2634f7ea6fd52f026f711269f9f0f7b6e8201023642f928e7d41c3525fe83cc850d9b608830efe3b7c137d89a61a41e7ee4da5822423170563d71b95b6b5e7e2acfe88a1bfbc41b1e92a2e5fa5972e53429d9b790208dedec5269891eece66b5182b08717ea66af9778c30cfd6ef04728acead2ee9907b9a53fe6461ec041eb37c925dd07f1d2f1a1250525cfc624ad919cfb59bfac35b4fe0f2a35bcaff9b151837d2e2bb52934a27c1eee9efe01504b0304140000080800cd983343287e18aa4300000048000000120024006772617068305f656469746f722e6a736f6e0a00200000000000010018006ecbff935ab5ce016ecbff935ab5ce016ecbff935ab5ce01ab56cac94fce4e4d51b22a292a4dd5512acec82f77ad28294a54b24a4bcc29068a94a456949416a58665166726e5a4c2d4156496e59728592939a7e695a41629d50200504b0304140000080800cd983343cecd1c397700000085000000090024006d6574612e6a736f6e0a00200000000000010018006ecbff935ab5ce016ecbff935ab5ce016ecbff935ab5ce011d8c3d0f82301400ffcb9bb1b1b51f81d581cdb81b8607ef153ad892524c8cf1bf4bdd6eb8bb0fbc386f2145e8e022943042420373c675d9a09307ee810e7a8069a5f752b5a3d1135bb2279a9cb64a12a2d3a3f3168606ca7be51b3ef95fdcb12c3e440a71167d0ed4d76bb56222bea63d96aa9d87ef0f504b01022d00140000080800cd9833438aada032d40100008a0300000b00240000000000000000000000000000006772617068302e6a736f6e0a0020000000000001001800cd44fe935ab5ce01cd44fe935ab5ce01cd44fe935ab5ce01504b01022d00140000080800cd983343287e18aa43000000480000001200240000000000000000000000210200006772617068305f656469746f722e6a736f6e0a00200000000000010018006ecbff935ab5ce016ecbff935ab5ce016ecbff935ab5ce01504b01022d00140000080800cd983343cecd1c3977000000850000000900240000000000000000000000b80200006d6574612e6a736f6e0a00200000000000010018006ecbff935ab5ce016ecbff935ab5ce016ecbff935ab5ce01504b050600000000030003001c0100007a0300000000
+    data_backup: 
+    data_cachedStartup: 
+    revertData: 
+    cacheStartup: 0
+    compress: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 20000
+  showSearchTree: 0
+  unwalkableNodeDebugSize: .300000012
+  stepByStep: 1
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _NodeConnection: {r: 1, g: 1, b: 1, a: .899999976}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: .5}
+    _BoundsHandles: {r: .289999992, g: .453999996, b: .740999997, a: .899999976}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: .5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: .5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: .5}
+    _MeshColor: {r: .125, g: .68599999, b: 0, a: .189999998}
+    _AreaColors: []
+  tagNames:
+  - Basic Ground
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 0
+  maxFrameTime: 1
+  recyclePaths: 0
+  minAreaSize: 10
+  limitGraphUpdates: 1
+  maxGraphUpdateFreq: .200000003
+  lastScanTime: .115006603
+  inGameDebugPath: 
+  isScanning: 0
+  showGraphs: 1
+  lastUniqueAreaIndex: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62aa20d6532281a40a1a663ed93eaffc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
